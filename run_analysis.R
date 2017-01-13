@@ -293,8 +293,8 @@ tidy.activity$activity <- factor(tidy.activity$activity,
 
 
 #------------------------------------------------------
-# 7. Writing the final tidy data frame to a CSV file
+# 7. Writing the final tidy data frame to a txt file
 #------------------------------------------------------
 
-write.csv(tidy.activity, "tidy_human_activity.csv")
+write.table(tidy.activity, "tidy_human_activity.txt", row.name=FALSE)
 
