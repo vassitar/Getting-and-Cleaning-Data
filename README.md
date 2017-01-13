@@ -19,6 +19,6 @@ file. The "CodeBook.md" file contains information about the variables, the data,
 4. Merge the train and test data sets 
 5. Extract the measurements only on the mean and standard deviation 
 6. Construct a final tidy data frame from the data frame in point 5, with the average of each variable for each activity and each subject 
-7. Write the final tidy data frame to a CSV file 
+7. Write the final tidy data frame to a txt file 
 
 More details are available in the "CodeBook.md" file.
