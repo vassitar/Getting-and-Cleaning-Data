@@ -96,5 +96,5 @@ The following files are available for the train and test data. Their description
 6. Merging the train and test data sets with "rbind()"
 7. Extracting the measurements only on the mean and standard deviation with the help of the "grep()" function 
 8. Constructing the final tidy data frame with the "aggregate()" function 
-9. Writing the final tidy data frame to a CSV file with the function "write.csv()" function
+9. Writing the final tidy data frame to a txt file with the function "write.table()" 
 
