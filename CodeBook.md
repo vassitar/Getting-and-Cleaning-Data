@@ -76,23 +76,23 @@ The following files are available for the train and test data. Their description
 0. Setting the working directory
 1. Downloading and unzipping the file with the data for the project
 2. Preparation for loading the **train data set**
-* Reading the data from the "features.txt" file into the "features" data frame
-* Reading the data from the "subject_train.txt" file into the "indexPerson" data frame
-* Reading the data from the "y_train.txt" file into the "Activity" data frame
-* Reading the data from the "activity_labels.txt" file into the "ActivityNames" data frame
+- Reading the data from the "features.txt" file into the "features" data frame
+- Reading the data from the "subject_train.txt" file into the "indexPerson" data frame
+- Reading the data from the "y_train.txt" file into the "Activity" data frame
+- Reading the data from the "activity_labels.txt" file into the "ActivityNames" data frame
 3. Reading the **train data set** from the "X_train.txt" file into the **"trainset"** data frame
-* The variables in the "trainset" data frame are assigned names taken from the "features" data frame
-* The variable "PersonID" is added to the "trainset" data frame
-* The variable "Activity" is added to the "trainset" data frame
-* The integer variable "Activity" is transformed into a factor variable, where the labels of the factor levels are taken from the "ActivityNames" data frame
+- The variables in the "trainset" data frame are assigned names taken from the "features" data frame
+- The variable "PersonID" is added to the "trainset" data frame
+- The variable "Activity" is added to the "trainset" data frame
+- The integer variable "Activity" is transformed into a factor variable, where the labels of the factor levels are taken from the "ActivityNames" data frame
 4. Preparation for loading the **test data set**
-* Reading the data from the "subject_test.txt" file into the "indexPerson" data frame
-* Reading the data from the "y_test.txt" file into the "Activity" data frame
+- Reading the data from the "subject_test.txt" file into the "indexPerson" data frame
+- Reading the data from the "y_test.txt" file into the "Activity" data frame
 5. Reading the **test data set** from the "X_test.txt" file into the **"testset"** data frame
-* The variables in the "testset" data frame are assigned names taken from the "features" data frame
-* The variable "PersonID" is added to the "testset" data frame
-* The variable "Activity" is added to the "testset" data frame
-* The integer variable "Activity" is transformed into a factor variable, where the labels of the factor levels are taken from the "ActivityNames" data frame
+- The variables in the "testset" data frame are assigned names taken from the "features" data frame
+- The variable "PersonID" is added to the "testset" data frame
+- The variable "Activity" is added to the "testset" data frame
+- The integer variable "Activity" is transformed into a factor variable, where the labels of the factor levels are taken from the "ActivityNames" data frame
 6. Merging the train and test data sets with "rbind()"
 7. Extracting the measurements only on the mean and standard deviation with the help of the "grep()" function 
 8. Constructing the final tidy data frame with the "aggregate()" function 
